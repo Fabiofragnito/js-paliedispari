@@ -15,7 +15,21 @@ console.log(reverseCh);
 const reversedWord = reverseCh.join('');/* riunisco i caratteri in una stringa */
 console.log(reversedWord);
 
+function palindroma(word) {  /* inserisco la logica precedente nel blocco di codice */
+    const ch = word.split('');
+    const reverseCh = ch.reverse();
+    const reversedWord = reverseCh.join('');
 
+    if (word === reversedWord){ /* se la parola e' uguale dopo aver invertito i caratteri ==> e' palindroma */
+        console.log("parola palindroma");
+        
+    }else{
+        console.log("paola NOn palindroma");
+        
+    }
+    
+}
+palindroma(word);
 
 
 
@@ -26,3 +40,4 @@ console.log(reversedWord);
 
 // Pari e Dispari
 // L’utente sceglie pari o dispari e inserisce un numero da 1 a 5. Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione). Sommiamo i due numeri Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione) Dichiariamo chi ha vinto.
+
