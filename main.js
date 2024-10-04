@@ -55,3 +55,17 @@ randomNumber()
 let computerNumber = randomNumber(); // Numero casuale per il computer
 console.log(computerNumber);
 
+let sum = userNumber + computerNumber; // Somma dei numeri
+
+function isEvenOrOdd(number) {
+    return number % 2 === 0 ? "pari" : "dispari"; // Restituisce "pari" o "dispari"
+}
+
+let result = isEvenOrOdd(sum); // Determina se la somma è pari o dispari
+
+// Dichiara il vincitore
+if (result === userChoice) {
+    console.log("Hai vinto!");
+} else {
+    console.log("Ha vinto il computer!");
+}
