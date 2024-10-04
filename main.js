@@ -24,7 +24,7 @@ function palindroma(word) {  /* inserisco la logica precedente nel blocco di cod
         console.log("parola palindroma");
         
     }else{
-        console.log("paola NOn palindroma");
+        console.log("parola NOn palindroma");
         
     }
     
@@ -51,3 +51,7 @@ function randomNumber (){
 }
 
 randomNumber()
+
+let computerNumber = randomNumber(); // Numero casuale per il computer
+console.log(computerNumber);
+
